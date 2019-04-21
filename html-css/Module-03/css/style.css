@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+
+/* HEADER */
+.navigation-list {
+    display: inline-block;
+    font-size: 0px;
+    width: 900px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 70px;
+   
+
+}
+
+.navigation-list li {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.navigation-list li a {
+    display: block;
+    text-decoration: none;
+    
+}
+
+.color-blue {
+    color: #03a9f4;
+}
+
+.nav-lifestyle {
+    margin-right: 122px;
+}
+
+.nav-photodiary {
+    margin-right: 104px;
+}
+
+.nav-music {
+    margin-right: 96px;
+}
+
+
+.nav-lifestyle a {
+    color: 03a9f4;
+}
+
+/* MAIN */ 
+
+section {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+
+}
+.relax-list {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.relax-list-item {
+    display: inline-block;
+    font-size: 14px;
+    width: 420px;
+}
+
+
+.relax-list:nth-child(odd) {
+    margin-right: 60px;
+}
+
+
+h2 {
+    font-size: 14px;
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 25px;
+    line-height: 17px;
+}
+
+.relax-list-item img {
+  margin-bottom: 29px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 28px;
+    line-height: 36px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 140px;
+}
+
+.text {
+    margin-bottom: 0;
+}
+
+footer {
+    height: 185px;
+    text-align: center;
+}
+
+
+button {
+    height: 60px;
+    background-color: white;
+    margin: 50px 380px 70px 360px;
+    padding: 0;
+    min-width: 164px;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%); 
+    margin: -1px;
+  }
