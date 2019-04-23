@@ -50,7 +50,7 @@
 }
 
 .nav-lifestyle a {
-  color: 03a9f4;
+  color: #03a9f4;
 }
 
 /* MAIN */
@@ -71,6 +71,7 @@ section {
   display: inline-block;
   font-size: 14px;
   width: 420px;
+  vertical-align: top; /*выравнивание по верхей строке*/ 
 }
 
 .relax-list:nth-child(odd) {
@@ -106,20 +107,11 @@ p {
 }
 
 footer {
-  height: 185px;
+  padding-top: 50px;
+  padding-bottom: 70px;
   text-align: center;
 }
 
-button {
-  height: 60px;
-  background-color: white;
-  margin: 50px 380px 70px 360px;
-  padding: 0;
-  min-width: 164px;
-  font-size: 20px;
-  line-height: 24px;
-  cursor: pointer;
-}
 
 .visually-hidden {
   position: absolute;
