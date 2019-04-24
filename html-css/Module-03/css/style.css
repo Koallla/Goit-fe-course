@@ -74,7 +74,7 @@ section {
   vertical-align: top; /*выравнивание по верхей строке*/ 
 }
 
-.relax-list:nth-child(odd) {
+.relax-list-item:nth-child(odd) {
   margin-right: 60px;
 }
 
