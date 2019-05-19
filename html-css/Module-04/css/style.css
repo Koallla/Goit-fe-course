@@ -35,6 +35,7 @@
 
 .site-navigation-item {
     float: left;
+    flex-grow:1;
 }
 
 .site-navigation-item a:hover {
