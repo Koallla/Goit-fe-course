@@ -353,7 +353,7 @@ h2::after {
 
 .clock {
   display: inline-block;
-  background-image: url(../img/Overlay/Clock.png);
+  background-image: url(../img/Overlay/clock.png);
   width: 30px;
   height: 30px;
   margin-top: 10px;
