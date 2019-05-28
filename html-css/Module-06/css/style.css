@@ -7,6 +7,9 @@
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
 *, 
 *::before, 
 *::after {
@@ -30,7 +33,6 @@
 
 .site-navigation {
     display: flex;
-    list-style: none;
     width: 490px;
     justify-content: space-between;
 }
@@ -97,6 +99,35 @@
 }
 
 
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-list-item {
+    width: 382px;
+}
+
+.service-list-title::before {
+    content: '';
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background: black;
+    margin-right: 30px;
+
+
+}
+
+.service-list-title {
+    display: flex;
+    
+}
+
+.service-list-description {
+    margin-left: 65px;
+}
 
 
 
