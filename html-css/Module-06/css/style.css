@@ -50,6 +50,7 @@ ul {
     line-height: 1.2;
     text-transform: uppercase;
     font-style: 400;
+    transition: 0.2s linear;
 }
 
 .site-navigation-item span {
@@ -58,14 +59,12 @@ ul {
     background: #f38181;
     display: flex;
     margin: 12px auto 0 auto;
-    opacity: 0;;
-    
+    opacity: 0;
+    transition: 0.2s linear;
 }
 
 .site-navigation-item a:hover {
     color: #f38181;
-    
-    
 }
 
 .site-navigation-item a:hover~span {
@@ -99,7 +98,6 @@ ul {
     background: #f38181;
     margin: 42px auto 60px auto;
 }
-
 
 .service-list {
     display: flex;
@@ -167,7 +165,6 @@ ul {
 
 .service-list-title {
     display: flex;
-
 }
 
 .service-list-description {
@@ -223,25 +220,50 @@ ul {
     margin: 0 auto;
 }
 
-
 .our-team-list-item {
     position: relative;
 }
 
 .our-team-photo {
     position: relative;
-    z-index: 3;
+    z-index: 2;
+    background: linear-gradient(to top, #E4AF9D 20%, #E4E4D8 50%, #A19887 80%);
+    transition: 0.2s linear;
 }
+
 .shadow {
     position: absolute;
     width: 380px;
     height: 470px;
-    background:teal;
+    background-color: rgb(149, 225, 211);
     z-index: 1;
-
 }
 
+.gradient {
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    background: linear-gradient(to top, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+    z-index: 3;
+    opacity: 0;
+    animation: gradient 1s linear;
+    transform: translate(-10px, -10px);
+    transition: 0.2s linear;
+}
 
+.our-team-list-item:hover .gradient {
+    cursor: pointer;
+    opacity: 1;
+}   
+
+.our-team-list-item:hover .our-team-photo {
+    transform: translate(-10px, -10px);
+}
+
+.our-team-list-item:hover .our-team-list-social {
+    transform: translate(-10px, -10px);
+    opacity: 1;
+}
 
 .our-team-list {
     display: flex;
@@ -275,23 +297,22 @@ ul {
     top: 206px;
     left: 76px;
     z-index: 5;
+    opacity: 0;
+    transition: 0.2s linear;
 }
 
-
-
 .our-team-list-social a:hover {
-    background: #95e1d3;
+    transition: 0.2s linear;
+    background-color: #95e1d3;
 }
 
 .our-team-list-social li {
     margin-right: 1px;
-    
 }
 
 .our-team-list-social li:last-child {
     margin-right: 0;
 }
-
 
 .our-team-list-social a {
     display: inline-block;
@@ -302,14 +323,8 @@ ul {
     background-color: #fce38a;
 }
 
-/* .team-list-social a:hover,
-.team-list-social a:focus {
-    background-color:rgb(9, 185, 255);
-} */
-
 .icon-fb {
     background-image: url(../img/social-icon/facebook.png);
-    
 }
 
 .icon-tw {
@@ -324,32 +339,6 @@ ul {
     background-image: url(../img/social-icon/instagram.png);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* FOOTER */
 
 .page-footer {
@@ -359,7 +348,6 @@ ul {
     height: 62px;
     border-top: 1px solid #e5e5e5;
 }
-
 
 figcaption {
     font-family: 'Montserrat', sans-serif;
@@ -373,8 +361,6 @@ figcaption {
     color: #f38181;
 }
 
-
-
 .form {
     display: flex;
 }
@@ -384,7 +370,7 @@ width: 100%;
 display: inline-block;
 background: none;
 border: 1px solid #e5e5e5;
-outline: none; /*Убирает белый фон при выделении input*/
+outline: none;
 }
 
 .input::placeholder {
@@ -392,7 +378,7 @@ outline: none; /*Убирает белый фон при выделении inpu
 }
 
 .input:focus {
-    border: 1px solid #000;/*добавляем фокус инпуту*/ 
+    border: 1px solid #000;
 }
 /*Кнопка*/
 .subscribe {
@@ -405,7 +391,6 @@ outline: none; /*Убирает белый фон при выделении inpu
 }
 
 .subscribe:hover {
-    background: #f38181;
     border: 1px solid #000;
     cursor: pointer;
 }
@@ -425,8 +410,6 @@ outline: none; /*Убирает белый фон при выделении inpu
 .list {
     text-align: center;
 }
-
-
 
 .visually-hidden {
 	position: absolute !important;
