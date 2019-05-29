@@ -41,6 +41,7 @@ ul {
 
 .site-navigation-item {
     margin-top: 40px;
+    position: relative;
 }
 .site-navigation-item a {
     text-decoration: none;
@@ -53,23 +54,25 @@ ul {
     transition: 0.2s linear;
 }
 
-.site-navigation-item span {
-    width: 50px;
+.site-navigation-item a::after {
+    position: absolute;
+    content:'';
+    width: 0;
     height: 3px;
     background: #f38181;
-    display: flex;
-    margin: 12px auto 0 auto;
-    opacity: 0;
-    transition: 0.2s linear;
+    top: 30px;
+    left: 50%;
+    transition: width .2s, left .2s;   
 }
 
 .site-navigation-item a:hover {
     color: #f38181;
 }
 
-.site-navigation-item a:hover~span {
-    opacity: 1;
-}
+.site-navigation-item a:hover::after {
+    width: 100%;
+    left:0;
+  }
 
 
 /* SECTION */
