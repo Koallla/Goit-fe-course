@@ -1,4 +1,4 @@
-!html {
+html {
     box-sizing: border-box;
 }
 
@@ -10,6 +10,7 @@
 ul {
     list-style: none;
 }
+
 *, 
 *::before, 
 *::after {
@@ -19,6 +20,7 @@ ul {
 .container {
     width: 1200px;
     margin: 0 auto;
+    /* background: lightblue; */
 }
 
 .page-header {
@@ -95,7 +97,7 @@ ul {
     width: 60px;
     height: 3px;
     background: #f38181;
-    margin: 42px auto 0 auto;
+    margin: 42px auto 60px auto;
 }
 
 
@@ -107,6 +109,15 @@ ul {
 
 .service-list-item {
     width: 382px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.service-list-item:not(:nth-child(n+4)) {
+    margin-bottom: 100px;
 }
 
 .service-list-title::before {
@@ -114,15 +125,56 @@ ul {
     display: flex;
     width: 35px;
     height: 35px;
-    background: black;
     margin-right: 30px;
+    background-repeat: no-repeat;
+}
 
+.photo {
+    background-image: url(../img/icon/ALARM.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
 
+.web {
+    background-image: url(../img/icon/LINE\ GRAPH.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.creativ{
+    background-image: url(../img/icon/COMPUTER\ _\ OK.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.ceo {
+    background-image: url(../img/icon/BOOK\ 2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.css {
+    background-image: url(../img/icon/HOME.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.digital {
+    background-image: url(../img/icon/IMAGE.png);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .service-list-title {
     display: flex;
-    
+
+}
+
+.service-list-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: 400;
+    line-height: 24px;
 }
 
 .service-list-description {
@@ -130,8 +182,259 @@ ul {
 }
 
 
+/* SECTION  our-team*/
+
+.our-team {
+    text-align: center;
+}
+
+.our-team-text, .our-team-title {
+    line-height: 1.2;
+}
+.our-team-text {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    margin-top: 95px;
+}
+
+.our-team-title {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: 700;
+}
+
+.our-team-title::after {
+    content: '';
+    display: flex;
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    margin: 42px auto 46px auto;
+}
+
+.our-team-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: 400;
+    line-height: 24px;
+    width: 960px;
+    height: 130px;
+    margin: 0 auto;
+}
+
+
+.our-team-list-item {
+    position: relative;
+}
+
+.our-team-photo {
+    position: relative;
+    z-index: 3;
+}
+.shadow {
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    background:teal;
+    z-index: 1;
+
+}
+
+
+
+.our-team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 86px;
+}
+
+.our-team-list-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-style: 400;
+    text-transform: uppercase;
+    margin: 30px auto 8px auto;
+}
+
+.our-team-list-occupation, .template {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-style: 300;
+}
+
+.our-team-list-social {
+    display: flex;
+    position: absolute;
+    top: 206px;
+    left: 76px;
+    z-index: 5;
+}
+
+
+
+.our-team-list-social a:hover {
+    background: #95e1d3;
+}
+
+.our-team-list-social li {
+    margin-right: 1px;
+    
+}
+
+.our-team-list-social li:last-child {
+    margin-right: 0;
+}
+
+
+.our-team-list-social a {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fce38a;
+}
+
+/* .team-list-social a:hover,
+.team-list-social a:focus {
+    background-color:rgb(9, 185, 255);
+} */
+
+.icon-fb {
+    background-image: url(../img/social-icon/facebook.png);
+    
+}
+
+.icon-tw {
+    background-image: url(../img/social-icon/twitter.png);
+}
+    
+.icon-pt {
+    background-image: url(../img/social-icon/pinterest.png);
+}
+
+.icon-inst {
+    background-image: url(../img/social-icon/instagram.png);
+}
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.page-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid #e5e5e5;
+}
+
+
+figcaption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-style: 400;
+    font-kerning: normal;
+}
+
+.template {
+    color: #f38181;
+}
+
+
+
+.form {
+    display: flex;
+}
+
+.input {
+width: 100%;
+display: inline-block;
+background: none;
+border: 1px solid #e5e5e5;
+outline: none; /*Убирает белый фон при выделении input*/
+}
+
+.input::placeholder {
+    color: black;
+}
+
+.input:focus {
+    border: 1px solid #000;/*добавляем фокус инпуту*/ 
+}
+/*Кнопка*/
+.subscribe {
+    width: 150px;
+    height: 40px;
+    background: #95e1d3;
+    color: #fff;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.subscribe:hover {
+    background: #f38181;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.submit:focus {
+    border: 1px solid #fff;
+}
+
+.submit:disabled {
+    background: lightgrey;
+}
+
+:root {
+    font-family: serif;
+}
+
+.list {
+    text-align: center;
+}
+
+
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
