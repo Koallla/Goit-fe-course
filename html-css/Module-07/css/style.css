@@ -137,17 +137,21 @@ ul {
 /* FOOTER */
 .page-footer {
     display: flex;
+    position: relative;
     height: 676px;
     background: #000;
+    z-index: 12;
 }
 
 .page-footer::before {
-    display: flex;
+    position: absolute;
     content: '';
-    height: 676px;
+    width: 100%;
+    height: 676px;  
     background-image: url(../img/bg-map.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-top: 30px;
 }
 
 .map-image {
@@ -177,12 +181,10 @@ ul {
 }
 
 
-
 /* FORM */
 .form-container {
     width: 1400px;
 }
-
 
 .form {
     display: flex;
@@ -196,13 +198,17 @@ ul {
 }
 
 .input {
-    display: block;
+    box-sizing: border-box;
     margin-bottom: 30px;
     margin-right: 30px;
-    border-radius: 2px;
-    background-color: rgb( 255, 255, 255 );
     width: 459px;
     height: 52px;
+    display: block;
+    border-radius: 2px;
+    background-color: rgb( 255, 255, 255 );
+    outline: 4px solid transparent;
+    outline-offset: -2px;
+    transition: outline-color 0.1s;
 }
 
 .input::placeholder {
@@ -212,7 +218,11 @@ ul {
     line-height: 1.2;
     font-weight: 700;
     text-transform: uppercase;
+    padding: 22px 0 22px 22px; /*Не получилось отцентровать текст плейсхолдера по высоте*/
 }
+
+
+
 
 .button-submit {
     position: absolute;
@@ -222,7 +232,6 @@ ul {
     left: 0;
     right: 0;
 }
-
 
 .btn {
     width: 240px;
@@ -259,42 +268,24 @@ ul {
     line-height: 1.2;
     font-weight: 700;
     text-transform: uppercase;
+    padding: 22px 0 0 22px;
+    
 }
 
 textarea {
     resize: none;
 }
 
-.your-name[type='text']:valid {
-    outline-color: green;
-    /* border-bottom: 3px solid green; */
+/* Классная валидация!!! */
+input[type="email"]:focus:invalid,
+input[type="text"]:focus:invalid {
+  outline-color: red;
+  transition: outline-color 5s;
 }
 
-.your-email[type='email']:valid {
-    outline-color: green;
-}
 
-
-.your-name[type='text']:invalid {
-    outline-color: red;
-
- }
- 
- .your-email[type='email']:invalid {
-    outline-color: red;
- }
-  /* visually-hidden helper */
-.visually-hidden:not(:focus):not(:active),
-input[type='checkbox'].visually-hidden,
-input[type='radio'].visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+input[type="email"]:focus:valid,
+input[type="text"]:focus:valid {
+  outline-color: green;
+  transition: outline-color .4s;
 }
