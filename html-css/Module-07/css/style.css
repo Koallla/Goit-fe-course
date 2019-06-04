@@ -209,17 +209,16 @@ ul {
     outline: 4px solid transparent;
     outline-offset: -2px;
     transition: outline-color 0.1s;
+    padding: 5% 0 5% 5%;
 }
 
 .input::placeholder {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     color: rgb( 187, 187, 187 );
-    line-height: 1.2;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 22px 0 22px 22px; /*Не получилось отцентровать текст плейсхолдера по высоте*/
-}
+   }
 
 
 
@@ -259,16 +258,16 @@ ul {
     background-color: rgb( 255, 255, 255 );
     width: 450px;
     height: 216px;
+    padding: 4% 5%;
 }
 
 .textarea::placeholder {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     color: rgb( 187, 187, 187 );
-    line-height: 1.2;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 22px 0 0 22px;
+    /* padding: 22px 0 0 22px; */
     
 }
 
