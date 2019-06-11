@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    width: 320px;
+}
+
+
+.page-nav {
+    min-width: 320px;
+    min-height: 80px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}   
+
+.log-in, .sign-up {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb( 255, 255, 255 );
+    font-weight: 700;
+    text-decoration: none;
+}
+  
+.log-in {
+    margin-right: 20px;
+}
+
+.sign-up {
+    border: 2px solid rgb( 255, 255, 255 );
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 8px;
+    width: 90px;
+    height: 36px;
+} 
+
+.overlay {
+    display: inline-block;
+    background-color: rgba( 26, 25, 21, 0.8);
+}
+
+.picture {
+    width: 100%;
+    display: block;
+}
+
+.dreams {
+    position: absolute;
+}
+
+.section-dreams-title, .section-dreams-descr {
+    font-family: "Montserrat";
+    color: rgb( 255, 255, 255 );
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-dreams-title{
+    font-size: 20px;
+}
+
+.section-dreams-descr {
+    font-size: 30px;
+}
+
+.section-text {
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb( 255, 255, 255 );
+    font-weight: 300;
+}   
+
+.find-partner {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb( 255, 255, 255 );
+    font-weight: 700;
+    width: 280px;
+    height: 40px;
+    border: none;
+    background-color: #ff4e50;
+    border-radius: 20px;
+} 
