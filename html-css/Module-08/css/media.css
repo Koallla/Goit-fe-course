@@ -2,7 +2,6 @@
 
     .container {
         width: 320px;
-        margin: 0 auto ;
     }
     
     .page-nav {
@@ -49,11 +48,6 @@
         width: 280px;
     } 
 
-
-
-
-
-
     .partner {
         text-align: center;
         padding: 0 30px;
@@ -82,121 +76,141 @@
 /* WIDTH 768*/
 @media (min-width: 768px) {
 
-.container {
-    width: 768px;
-  
-}
+    .container {
+        width: 768px;
+    }
 
-.page-nav {
-    width: 768px;
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-}   
+    .page-nav {
+        width: 768px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;   
+    }   
 
-.navigation {
-    display: flex;
-    align-items: center;
-    order: 2;
-}
+    .navigation {
+        display: flex;
+        align-items: center;
+        order: 2;
+    }
 
-.site-logo {
-    display: inline-block;
-    padding-top: 3px;
-}
+    .site-logo {
+        display: inline-block;
+        padding-top: 3px;
+    }
 
-.section-dreams-descr {
-    min-width: 768px;
-    margin-top: 220px;
-}   
+    .section-dreams-descr {
+        min-width: 768px;
+        margin-top: 220px;
+    }   
 
-.section-dreams-title {
-    margin-bottom: 40px;
-    font-size: 52px;
-}
+    .section-dreams-title {
+        margin-bottom: 40px;
+        font-size: 52px;
+    }
 
-.section-text {
-    margin-bottom: 32px;
-    font-size: 24px;
-}   
+    .section-text {
+        margin-bottom: 32px;
+        font-size: 24px;
+    }   
 
 
-.find-partner {
-    width: 226px;
+    .find-partner {
+        width: 226px;
+    } 
+
+    .section-partner-title {
+        font-size: 20px;
+        margin-bottom: 1.8em;
+    }
+
 } 
 
+@media (min-width: 768px) and (max-width: 939px) {
 
+    .card-list {
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 
-.section-partner-title {
-    font-size: 20px;
-    margin-bottom: 1.8em;
- }
-
- .card-list {
-     height: 550px;
-     display: flex;
-     flex-direction: column;
-     flex-wrap: wrap;
-     align-items: center;
- }
-
- .card-list-item {
+    .card-list-item {
     width: 210px;
     padding: 0;
     margin: 0;
- }
+    }
 
- .card-list-item:nth-child(2n+1) {
+    .card-list-item:nth-child(2n+1) {
     margin-bottom: 60px;
+    }
+
 }
 
-} 
-
-/* 600 - 1169 */
-/* @media (min-width: 600px) and (max-width: 1169px) {
-    .features-list-item:not(:nth-last-child(-n + 2)),
-    .team-list-item:not(:nth-last-child(-n + 2)) {
-        margin-bottom: 40px;
-    }
-    .site-logo {
-        margin-bottom: 20px;
-    }
-
-    .site-navigation {
-        width: 100%;
-    }
-}   */
-
-/* 1170 */
-/* @media (min-width: 1170px) {
+ @media (min-width: 940px) {
 
     .container {
-        width: 1170px;
-    }
-    .page-nav {
-        flex-direction: row;
-        justify-content: space-between;
+        width: 1440px;   
     }
 
-
-    .site-navigation {
-        flex: 0 0 600px;
-    }
-
-    .banner {
-        min-height: 600px;
-    }
-
-
-    .features-list-item {
-        flex: 0 0 370px;
+    .wr {
+        width: 940px;
         text-align: center;
+        margin: 0 auto;
     }
 
-    .features-list-item:not(:nth-last-child(-n + 3)) {
-        margin-bottom: 72px;
+    .page-nav {
+        width: 940px;
+        justify-content: space-between;
+        margin-top: 46px;   
+    }   
+
+    .section-dreams-descr {
+        min-width: 940px;
+        margin-top: 220px;
+    }   
+    
+    .section-dreams-title {
+        margin-bottom: 30px;
+        font-size: 52px;
     }
 
-}
- */
+    .find-partner {
+        width: 226px;
+    } 
+    
+    .partner {
+        width: 940px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .section-partner-title {
+        font-size: 20px;
+        margin-bottom: 1.8em;
+     }
+    
+    .card-list {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+     }
+    
+     .card-list-item {
+        width: 230px;
+     }
+
+     .card-list-item:nth-child(2) {
+        order: 1;
+    }
+
+    .card-list-item:nth-child(4) {
+        order: 2;
+    }
+
+    .see-partner {
+        width: 192px;
+    }
+ }
+
