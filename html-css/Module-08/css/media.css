@@ -148,20 +148,21 @@
 
  @media (min-width: 940px) {
 
-    .container {
-        width: 1440px;  
-    }
     
+    .container {
+        width: auto;
+        height: auto;
+       }
+
     .dreams {
         text-align: center;
     }
 
     .picture img {
-        width: 100%;
+        width: auto;
         max-width: 100%;
-        min-width: 1440px;
         height: auto;
- 
+        display: block;
         /* Не могу растянуть на весь экран */
     }
 
