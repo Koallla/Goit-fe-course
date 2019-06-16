@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 789px) {
 
     .container {
         width: 320px;
@@ -69,12 +69,11 @@
     .card-list-item:last-child {
         margin-bottom: 30px;
     }
-
 }
 
 
 /* WIDTH 768*/
-@media (min-width: 768px) {
+@media (min-width: 790px) {
 
     .container {
         width: 768px;
@@ -125,7 +124,7 @@
 
 } 
 
-@media (min-width: 768px) and (max-width: 939px) {
+@media (min-width: 790px) and (max-width: 939px) {
 
     .card-list {
         height: 550px;
@@ -150,7 +149,20 @@
  @media (min-width: 940px) {
 
     .container {
-        width: 1440px;   
+        width: 1440px;  
+    }
+    
+    .dreams {
+        text-align: center;
+    }
+
+    .picture img {
+        width: 100%;
+        max-width: 100%;
+        min-width: 1440px;
+        height: auto;
+ 
+        /* Не могу растянуть на весь экран */
     }
 
     .wr {
@@ -179,6 +191,7 @@
         width: 226px;
     } 
     
+
     .partner {
         width: 940px;
         padding: 0;

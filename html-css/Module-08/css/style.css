@@ -37,12 +37,14 @@
     margin-right: 20px;
 }
 
-.sign-up {
+.log-in:hover,
+.sign-up:hover {
     border: 2px solid rgb( 255, 255, 255 );
     border-radius: 20px;
     text-align: center;
-    padding: 4px 10px;
-} 
+    padding: 4px 12px;
+}
+
 
 .overlay {
     display: inline-block;
@@ -54,8 +56,7 @@
 } 
 
 .picture img {
-    display: block;
-    width: 100%;
+    max-width: 100%;
 } 
 
 .section-dreams-descr {
