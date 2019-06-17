@@ -156,14 +156,22 @@
 
     .dreams {
         text-align: center;
+        background-image: url(../img/title1440.png);
+        height: 700px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .overlay {
+        display: block; 
+        height: 700px;
+        background: rgba( 26, 25, 21, 0.2);
     }
 
     .picture img {
-        width: auto;
-        max-width: 100%;
-        height: auto;
-        display: block;
-        /* Не могу растянуть на весь экран */
+        display: none;
+      
     }
 
     .wr {

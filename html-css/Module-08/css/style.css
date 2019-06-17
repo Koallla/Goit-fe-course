@@ -48,7 +48,7 @@
 
 .overlay {
     display: inline-block;
-    background-color: rgba( 26, 25, 21, 0.8);
+    background: rgba( 26, 25, 21, 0.8);
 }
 
 .picture {
