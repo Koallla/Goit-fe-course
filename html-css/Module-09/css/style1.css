@@ -1,0 +1,117 @@
+
+.wrapper-header {
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsla(0, 0%, 0%, 0.8);
+}
+
+.container {
+    /* display: grid; */
+    margin: auto;
+    min-width: 320px;
+    max-width: 940px;
+    text-align: center;
+}
+
+.header {
+   /* height: 540px; */
+   
+   
+}
+
+
+.page-nav {
+    margin: auto;
+}   
+
+.navigation {
+    /* display: grid;   */
+}
+
+.site-logo {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Montserrat";
+    color: rgb( 255, 255, 255 );
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.log-in, .sign-up {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb( 255, 255, 255 );
+    font-weight: 700;
+    text-decoration: none;
+}
+  
+.log-in {
+    /* margin-right: 20px; */
+}
+
+.log-in:hover,
+.sign-up:hover {
+    border: 2px solid rgb( 255, 255, 255 );
+    border-radius: 20px;
+    text-align: center;
+    padding: 4px 12px;
+}
+
+
+.overlay {
+    display: inline-block;
+    background: rgba( 26, 25, 21, 0.8);
+}
+
+.picture {
+    display: block;
+} 
+/* 
+.picture img {
+    max-width: 100%;
+}  */
+
+.section-dreams-descr {
+  
+}
+
+.section-dreams-title {
+    font-family: "Montserrat";
+    color: rgb( 255, 255, 255 );
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-text {
+    font-family: "Roboto";
+    color: rgb( 255, 255, 255 );
+    font-weight: 300;
+
+
+}   
+
+.find-partner {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #ff4e50;
+    font-weight: 700;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #ff4e50;
+    background-color: transparent;
+    cursor: pointer;
+  
+} 
+
+.find-partner:hover {
+    background-color: #ff4e50;
+    color: rgb(255, 255, 255);
+}
+
+.dreams {
+    
+    margin-bottom: 70px;
+ }

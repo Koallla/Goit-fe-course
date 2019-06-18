@@ -1,0 +1,238 @@
+@media (max-width: 789px) {
+
+    .container {
+        width: 320px;
+    }
+    
+    .page-nav {
+        min-width: 320px;   
+        position: absolute;
+        text-align: center;
+    }       
+    
+    .navigation {
+        margin: 30px 0 130px 0;
+    }
+    
+    .site-logo {
+        margin-top: 130px;
+        margin-bottom: 40px;
+    }
+    
+    .log-in, .sign-up {
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: rgb( 255, 255, 255 );
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .log-in {
+        margin-right: 20px;
+    }
+
+    .section-dreams-descr {
+        min-width: 320px;
+    }
+    
+    .section-dreams-title {
+        margin: 230px 0 20px 0;
+        font-size: 30px;
+    }
+    
+    .section-text {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }   
+
+    .find-partner {
+        width: 280px;
+    } 
+
+    .partner {
+        text-align: center;
+        padding: 0 30px;
+    }
+   
+    .section-partner-title {
+       font-size: 20px;
+       margin-bottom: 0.7em;
+    }
+   
+    .card-list-item {
+        padding: 0 30px;
+    }
+   
+    .card-list-item:not(:last-child) {
+        margin-bottom: 26px;
+    }
+   
+    .card-list-item:last-child {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* WIDTH 768*/
+@media (min-width: 790px) {
+
+    .container {
+        width: 768px;
+    }
+
+    .page-nav {
+        width: 768px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;   
+    }   
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        order: 2;
+    }
+
+    .site-logo {
+        display: inline-block;
+        padding-top: 3px;
+    }
+
+    .section-dreams-descr {
+        min-width: 768px;
+        margin-top: 220px;
+    }   
+
+    .section-dreams-title {
+        margin-bottom: 40px;
+        font-size: 52px;
+    }
+
+    .section-text {
+        margin-bottom: 32px;
+        font-size: 24px;
+    }   
+
+
+    .find-partner {
+        width: 226px;
+    } 
+
+    .section-partner-title {
+        font-size: 20px;
+        margin-bottom: 1.8em;
+    }
+
+} 
+
+@media (min-width: 790px) and (max-width: 939px) {
+
+    .card-list {
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .card-list-item {
+    width: 210px;
+    padding: 0;
+    margin: 0;
+    }
+
+    .card-list-item:nth-child(2n+1) {
+    margin-bottom: 60px;
+    }
+
+}
+
+ @media (min-width: 940px) {
+
+    
+    .container {
+        width: auto;
+        height: auto;
+       }
+
+    .dreams {
+        text-align: center;
+        background-image: url(../img/title1440.png);
+        height: 700px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .overlay {
+        display: block; 
+        height: 700px;
+        background: rgba( 26, 25, 21, 0.2);
+    }
+
+    .picture img {
+        display: none;
+      
+    }
+
+    .wr {
+        width: 940px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .page-nav {
+        width: 940px;
+        justify-content: space-between;
+        margin-top: 46px;   
+    }   
+
+    .section-dreams-descr {
+        min-width: 940px;
+        margin-top: 220px;
+    }   
+    
+    .section-dreams-title {
+        margin-bottom: 30px;
+        font-size: 52px;
+    }
+
+    .find-partner {
+        width: 226px;
+    } 
+    
+
+    .partner {
+        width: 940px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .section-partner-title {
+        font-size: 20px;
+        margin-bottom: 1.8em;
+     }
+    
+    .card-list {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+     }
+    
+     .card-list-item {
+        width: 230px;
+     }
+
+     .card-list-item:nth-child(2) {
+        order: 1;
+    }
+
+    .card-list-item:nth-child(4) {
+        order: 2;
+    }
+
+    .see-partner {
+        width: 192px;
+    }
+ }
+
