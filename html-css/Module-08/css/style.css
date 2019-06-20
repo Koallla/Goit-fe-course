@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+html { 
+    overflow-x: hidden; 
+}
+
 .container {
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .wr {
 
     position: relative;
@@ -19,8 +24,7 @@
     position: absolute;
     left: 0;
     right: 0;
-}   
-
+}
 
 .site-logo {
     display: block;
@@ -118,8 +122,6 @@
  .card-list {
      list-style: none;
  }
-
-
 
 .card-photo {
     border-radius: 50%;
