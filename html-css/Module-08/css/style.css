@@ -4,16 +4,17 @@
     box-sizing: border-box;
 }
 
+html { 
+    overflow-x: hidden; 
+}
+
 .container {
     margin: 0 auto;
 }
 
-
 .page-nav {
     position: absolute;
-   
 }   
-
 
 .site-logo {
     display: block;
@@ -50,14 +51,6 @@
     display: inline-block;
     background: rgba( 26, 25, 21, 0.8);
 }
-
-.picture {
-    display: block;
-} 
-
-.picture img {
-    max-width: 100%;
-} 
 
 .section-dreams-descr {
     position: absolute;
@@ -115,8 +108,6 @@
  .card-list {
      list-style: none;
  }
-
-
 
 .card-photo {
     border-radius: 50%;
