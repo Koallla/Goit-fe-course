@@ -8,10 +8,17 @@
     margin: 0 auto;
 }
 
+.wr {
+
+    position: relative;
+    margin: 0 auto;
+
+}
 
 .page-nav {
     position: absolute;
-   
+    left: 0;
+    right: 0;
 }   
 
 
@@ -45,19 +52,15 @@
     padding: 4px 12px;
 }
 
-
-.overlay {
-    display: inline-block;
-    background: rgba( 26, 25, 21, 0.8);
+.dreams {
+    text-align: center;
+    background-image: url(../img/title.png);
+    height: 540px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba( 26, 25, 21, 0.8);
 }
-
-.picture {
-    display: block;
-} 
-
-.picture img {
-    max-width: 100%;
-} 
 
 .section-dreams-descr {
     position: absolute;
