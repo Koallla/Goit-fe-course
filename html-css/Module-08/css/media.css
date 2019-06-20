@@ -36,7 +36,6 @@
         right: 0;
     }   
    
-
     .section-dreams-title {
         margin: 230px 0 20px 0;
         font-size: 30px;
@@ -86,13 +85,10 @@
         /* width: 768px; */
     }
 
-    
-
-    .page-nav {
+        .page-nav {
         display: flex;
         justify-content: space-around;
         margin-top: 50px;   
-        
     }   
 
     .navigation {
@@ -105,8 +101,6 @@
         display: inline-block;
         padding-top: 3px;
     }
-
- 
     
     .section-dreams-title {
         margin-bottom: 40px;
@@ -117,7 +111,6 @@
         margin-bottom: 32px;
         font-size: 24px;
     }   
-
 
     .find-partner {
         width: 226px;
@@ -137,8 +130,6 @@
         width: 768px;
         margin: 0 auto;
     } 
-
-
 } 
 
 @media (min-width: 790px) and (max-width: 969px) {
@@ -165,9 +156,8 @@
     }
 
     .card-list-item:nth-child(2n+1) {
-    margin-bottom: 60px;
+        margin-bottom: 60px;
     }
-
 }
 
  @media (min-width: 970px) {
@@ -185,9 +175,6 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-
-   
 
     .wr {
         width: 940px;
@@ -214,7 +201,6 @@
     .find-partner {
         width: 226px;
     } 
-    
 
     .partner {
         width: 940px;
@@ -225,18 +211,18 @@
     .section-partner-title {
         font-size: 20px;
         margin-bottom: 1.8em;
-     }
+    }
     
     .card-list {
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
         margin-bottom: 40px;
-     }
+    }
     
      .card-list-item {
         width: 230px;
-     }
+    }
 
      .card-list-item:nth-child(2) {
         order: 1;
