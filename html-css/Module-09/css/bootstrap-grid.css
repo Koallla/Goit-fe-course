@@ -9,9 +9,7 @@ html {
   -ms-overflow-style: scrollbar;
 }
 
-*,
-*::before,
-*::after {
+* {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
@@ -19,8 +17,8 @@ html {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  /* padding-right: 15px;
+  padding-left: 15px; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -36,40 +34,46 @@ html {
     height: 540px;
 }
 
-  .header {
-    
-    /* min-height: 540px; */
+  .page-nav {
+    padding-top: 30px;
   }
 
-  .navigation {
-    padding-top: 30px;
+  .site-logo {
+    padding-top: 125px;
+  } 
+
+  .section-dreams-title {
+    font-size: 30px;
+    margin: 30px 0 20px 0;
+  }
+
+  .section-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }   
+
+  .find-partner,
+  .see-partner {
+    width: 280px;
+  }
+
+  .see-partner {
+    margin-bottom: 56px;
+  }
+  
+
+  .section-partner-title {
+    margin-top: 70px;
+    margin-bottom: 15px;
+  }
+
+  .card-list-item:not(:last-child) {
+    margin-bottom: 26px;
 }
 
-.site-logo {
-  padding-top: 130px;
+.card-list-item:last-child {
+    margin-bottom: 30px;
 }
-
-.section-dreams-title {
-  font-size: 30px;
-  margin: 30px 0 20px 0;
-}
-
-.section-text {
-  font-size: 18px;
-  margin-bottom: 20px;
-}   
-
-.find-partner {
-  width: 280px;
-} 
-
-
-
-
-
-
-
-
 
 
 
@@ -78,9 +82,53 @@ html {
 
 @media (min-width: 790px) {
   .container {
-    max-width: 768px;
+    max-width: 748px;
   }
+
+  .wrapper-header {
+    background-image: url(../img/title768.png);
+    height: 700px;
+  }
+
+  .page-nav {
+    padding-top: 46px;
+  }
+
+  .section-dreams-title {
+    font-size: 52px;
+    margin: 136px 0 36px 0;
+  }
+
+  .section-text {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }   
+
+  .section-partner-title {
+    margin-top: 70px;
+    margin-bottom: 34px;
+  }
+
+  .find-partner,
+  .see-partner {
+    width: 230px;
+  } 
+
+  .column {
+    box-sizing: content-box;
+  }
+
+  .card-list-item:nth-child(-n+2) {
+    margin-bottom: 60px;
+    }
+
+    .see-partner {
+      margin-bottom: 40px;
+    }
 }
+
+
+
 
 
 
@@ -98,9 +146,22 @@ html {
 
   .wrapper-header {
     background-image: url(../img/title1440.png);
-    height: 700px;
+    
 }
+
+.section-dreams-title {
+    margin-top: 145px;
+}
+
+
+
+
 } 
+
+
+
+
+
 
 
 .container-fluid {
@@ -128,8 +189,8 @@ html {
 
 .no-gutters > .col,
 .no-gutters > [class*="col-"] {
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
@@ -140,8 +201,8 @@ html {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .col {

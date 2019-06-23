@@ -8,27 +8,13 @@
 }
 
 .container {
-    /* display: grid; */
     margin: auto;
     min-width: 320px;
     max-width: 940px;
     text-align: center;
+    
 }
 
-.header {
-   /* height: 540px; */
-
-   
-}
-
-
-.page-nav {
-    margin: auto;
-}   
-
-.navigation {
-    /* display: grid;   */
-}
 
 .site-logo {
     display: block;
@@ -60,14 +46,6 @@
     padding: 4px 12px;
 }
 
-.picture {
-    display: block;
-} 
-/* 
-.picture img {
-    max-width: 100%;
-}  */
-
 .section-dreams-descr {
   
 }
@@ -87,23 +65,8 @@
 
 }   
 
-.find-partner {
-    font-size: 14px;
-    font-family: "Montserrat";
-    color: #ff4e50;
-    font-weight: 700;
-    height: 40px;
-    border-radius: 20px;
-    border-color: #ff4e50;
-    background-color: transparent;
-    cursor: pointer;
-  
-} 
 
-.find-partner:hover {
-    background-color: #ff4e50;
-    color: rgb(255, 255, 255);
-}
+
 
 /* MAIN */
 
@@ -117,6 +80,7 @@
    color:#000000;
    font-weight: 700;
    margin-top: 70px;
+   font-size: 22px;
 }
 
 .card-list {
@@ -178,9 +142,28 @@
 }
 
 .card-descr {
-   font-size: 14px;
+   font-size: 13.95px;
    font-family: "Roboto";
    color:#666666;
    font-weight:300;
 }
 
+
+.find-partner,
+.see-partner {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #ff4e50;
+    font-weight: 700;
+    height: 40px;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    border-color: #ff4e50;
+} 
+
+.see-partner:hover,
+.find-partner:hover {
+    background-color: #ff4e50;
+    color: rgb(255, 255, 255);
+}
