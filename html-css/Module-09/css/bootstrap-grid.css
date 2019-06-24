@@ -23,7 +23,6 @@ html {
   margin-left: auto;
 }
 
-
 @media (max-width: 789px) {
   .container {
     max-width: 320px;
@@ -32,7 +31,7 @@ html {
   .wrapper-header {
     background-image: url(../img/title.png);
     height: 540px;
-}
+  }
 
   .page-nav {
     padding-top: 30px;
@@ -61,7 +60,6 @@ html {
     margin-bottom: 56px;
   }
   
-
   .section-partner-title {
     margin-top: 70px;
     margin-bottom: 15px;
@@ -69,13 +67,11 @@ html {
 
   .card-list-item:not(:last-child) {
     margin-bottom: 26px;
-}
+  }
 
-.card-list-item:last-child {
+  .card-list-item:last-child {
     margin-bottom: 30px;
-}
-
-
+  }
 
 }
 
@@ -126,8 +122,8 @@ html {
     margin-bottom: 60px;
   }
 
-    .see-partner {
-      margin-bottom: 40px;
+  .see-partner {
+    margin-bottom: 40px;
   }
 }
 
@@ -140,20 +136,18 @@ html {
     background-image: url(../img/title1440.png);
   }
 
-* {
-  box-sizing: border-box;
+  * {
+    box-sizing: border-box;
   }
 
-.section-dreams-title {
+  .section-dreams-title {
     margin-top: 145px;
   }
+
+  .see-partner {
+    margin-bottom: 70px;
+  }
 } 
-
-
-
-
-
-
 
 .container-fluid {
   width: 100%;
@@ -169,8 +163,8 @@ html {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  /* margin-right: -15px;
+  margin-left: -15px; */
 }
 
 .no-gutters {
