@@ -10,7 +10,7 @@ html {
 }
 
 * {
-  box-sizing: inherit;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -85,6 +85,10 @@ html {
     max-width: 748px;
   }
 
+  * {
+    box-sizing: inherit;
+  }
+  
   .wrapper-header {
     background-image: url(../img/title768.png);
     height: 700px;
@@ -120,24 +124,12 @@ html {
 
   .card-list-item:nth-child(-n+2) {
     margin-bottom: 60px;
-    }
+  }
 
     .see-partner {
       margin-bottom: 40px;
-    }
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 940px) {
   .container {
@@ -146,16 +138,15 @@ html {
 
   .wrapper-header {
     background-image: url(../img/title1440.png);
-    
-}
+  }
+
+* {
+  box-sizing: border-box;
+  }
 
 .section-dreams-title {
     margin-top: 145px;
-}
-
-
-
-
+  }
 } 
 
 
