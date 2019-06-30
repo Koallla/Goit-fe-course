@@ -1,0 +1,51 @@
+page-header:
+    page-header__logo
+    page-header__img
+    page-header__site-navigation
+    page-header__item
+    page-header__link
+    page-header__icon
+
+section:
+    section__text
+    section__title
+    section__btn
+
+service:
+    service__text
+    service__title
+
+service__list:
+    service-list__item
+    service-list__shell
+    service-list__icon
+    service-list__title
+    service-list__description
+
+team:
+    team__text
+    team__title
+    team__description
+
+team__list:
+    team-list__item
+    team-list__shadow
+    team-list__gradient
+    team-list__team-photo
+    team-list__name
+    team-list__occupation
+
+socials:
+    socials__item
+    socials__link
+    socials__icon
+    
+page__footer:
+    page-footer__caption
+    page-footer__template
+
+form:
+    form__input
+    form__btn
+
+
