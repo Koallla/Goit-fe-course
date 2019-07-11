@@ -1,0 +1,41 @@
+/*
+   Import partials below
+*/
+
+@import './helpers/variables.scss';
+@import './normalize';
+@import './base';
+
+
+// COMPONENTS
+@import 'components/wrapper';
+@import 'components/container';
+@import 'components/navigation';
+@import 'components/menu--navigation';
+@import 'components/menu__icon--navigation';
+@import 'components/menu__item--navigation';
+@import 'components/menu__link--navigation';
+@import 'components/section__text';
+@import 'components/section__title';
+@import 'components/section__btn';
+@import 'components/hgroup__subtext--service';
+@import 'components/hgroup__title--service';
+@import 'components/menu__list--service';
+@import 'components/menu__item--service';
+@import 'components/menu__shell--service';
+@import 'components/hgroup-list--service';
+@import 'components/list__description--service';
+@import 'components/menu--team';
+@import 'components/hgroup__subtext--team';
+@import 'components/hgroup__title--team';
+@import 'components/hgroup__description--team';
+@import 'components/team-list';
+@import 'components/team-list__item';
+@import 'components/team-list__shadow';
+@import 'components/team-list__gradient';
+@import 'components/team-list__photo.scss';
+@import 'components/socials';
+@import 'components/page-footer';
+@import 'components/figcaption';
+@import 'components/form';
+@import 'components/form__btn';

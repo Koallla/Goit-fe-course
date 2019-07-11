@@ -1,0 +1,11 @@
+.team-list__gradient {
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    background: linear-gradient(to top,rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9));
+    z-index: 3;
+    opacity: 0;
+    animation: gradient 1s linear;
+    transform: translate(-10px, -10px);
+    transition: 0.2s linear;
+}

@@ -1,0 +1,18 @@
+.page-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.page-footer__template {
+    color: #f38181;
+}
+
+.page-footer__template {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+}

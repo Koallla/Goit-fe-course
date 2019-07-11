@@ -1,0 +1,9 @@
+.menu__item--navigation {
+    margin-top: 40px;
+    position: relative;
+    margin-right: 56px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}

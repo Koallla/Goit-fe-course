@@ -1,0 +1,23 @@
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 86px;
+}
+
+.team-list__name {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 30px auto 8px auto;
+}
+
+.team-list__occupation {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+}

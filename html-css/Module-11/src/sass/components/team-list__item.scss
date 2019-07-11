@@ -1,0 +1,19 @@
+.team-list__item {
+    position: relative;
+
+    &:hover .team-list__gradient {
+        cursor: pointer;
+        opacity: 1;
+    }   
+
+    &:hover .team-list__photo {
+        transform: translate(-10px, -10px);
+    }
+
+    &:hover .socials {
+        transform: translate(-10px, -10px);
+        opacity: 1;
+    }
+
+
+}

@@ -1,0 +1,16 @@
+.hgroup__title--service {
+    text-align: center;
+    line-height: 1.2;
+    font-size: 30px;
+    font-weight: 700;
+
+    &::after {
+        content: '';
+        display: flex;
+        width: 60px;
+        height: 3px;
+        background: #f38181;
+        margin: 42px auto 60px auto;
+    }
+
+}
