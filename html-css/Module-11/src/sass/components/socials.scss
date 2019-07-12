@@ -19,7 +19,7 @@
 .socials__icon {
     width: 32px;
     height: 32px;
-    fill: #f38181;
+    fill: $primary-main-color;
     padding-top: 3px;
     padding-left: 4px;
 }
@@ -30,14 +30,14 @@
     height: 56px;
     align-items: center;
     justify-content: center;
-    background-color: #fce38a;
+    background-color: $primary-accent-color;
 
     &:hover {
         transition: 0.2s linear;
-        background-color: #f38181;
+        background-color: $primary-main-color;
     }
 
     &:hover .socials__icon {
-        fill: white;
+        fill: $primary-white-color;
     }
 }

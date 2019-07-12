@@ -1,8 +1,8 @@
 .menu__link--navigation {
     text-decoration: none;
-    color: #ffffff;
-    font-size: 14px;
-    line-height: 1.2;
+    color: $primary-white-color;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
     font-weight: 400;
     transition: 0.2s linear;
 
@@ -11,18 +11,18 @@
         content: '';
         width: 0;
         height: 3px;
-        background: #fce38a;
+        background: $primary-accent-color;
         top: 30px;
         left: 50%;
         transition: width .2s, left .2s;   
     }
 
     &:hover {
-        color: #fce38a;
+        color: $primary-accent-color;
     }
 
     &:hover .menu__icon--navigation { 
-        fill: #fce38a;
+        fill: $primary-accent-color;
         transition: 0.2s linear;
     }
 

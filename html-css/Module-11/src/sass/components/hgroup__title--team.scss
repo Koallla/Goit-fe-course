@@ -1,5 +1,5 @@
 .hgroup__title--team {
-    line-height: 1.2;
+    line-height: $base-line-height;
     font-size: 30px;
     font-weight: 700;
 
@@ -8,7 +8,7 @@
         display: flex;
         width: 60px;
         height: 3px;
-        background: #f38181;
+        background: $primary-main-color;
         margin: 42px auto 46px auto;
     }
 }

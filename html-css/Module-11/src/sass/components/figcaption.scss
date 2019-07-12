@@ -1,7 +1,7 @@
 figcaption {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    line-height: 1.2;
+    font-family: $main-font-stack;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
     font-weight: 400;
     font-kerning: normal;
 }
